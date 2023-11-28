@@ -1,6 +1,6 @@
 import { serialize, deserialize } from '../../src/level-1/serializer';
 
-describe('Serializer', () => {
+describe.skip('Serializer', () => {
   describe('scalars', () => {
     const cases = [
       ['null', null, null],

@@ -1,4 +1,4 @@
 
-export default function (type?: number): Buffer { 
+export default function (type?: number): Buffer {
   /* put implmentation here */
 }

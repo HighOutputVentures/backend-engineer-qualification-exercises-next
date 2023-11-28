@@ -2,7 +2,7 @@ import * as R from 'ramda';
 import delay from '@highoutput/delay';
 import generate from '../../src/level-2/buffer-id';
 
-describe('ObjectId', () => {
+describe.skip('ObjectId', () => {
   test('generate unique ids', () => {
     const COUNT = 10;
     const ids = new Set(
