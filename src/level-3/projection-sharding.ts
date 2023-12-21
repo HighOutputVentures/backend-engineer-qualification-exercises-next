@@ -1,3 +1,11 @@
+/**
+ * Event sourcing uses projections to build read models.
+ * When these type of system scales, your projection setup
+ * will also need to scale. One technique used is akin to
+ * sharding, i.e. partitioning events. Events are being "partitioned"
+ * by sending events based on type to specific projections.
+ */
+
 import { EventEmitter } from 'node:events';
 
 export enum EventType {
